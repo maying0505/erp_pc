@@ -1,0 +1,52 @@
+.row-margin {
+    margin: 5px 0 10px 0;
+}
+
+.row-line {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f1f2f7;
+}
+
+.col {
+    border-top: 1px #e8e8e8 solid;
+    padding: 4px 8px;
+}
+
+.left {
+    border-left: 1px #e8e8e8 solid;
+}
+
+.right {
+    border-right: 1px #e8e8e8 solid;
+}
+
+.bottom {
+    border-bottom: 1px #e8e8e8 solid;
+}
+
+.img-empty {
+    border: 1px #d9d9d9 dashed;
+    width: 104px;
+    height: 104px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: not-allowed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-right-btn {
+    position: absolute;
+    top: 95px;
+    right: 30px;
+}
+
+.advance-btn {
+    position: fixed;
+    right: 0;
+    top: 50%;
+}

@@ -1,0 +1,129 @@
+.yt-admin-framework-page {
+    position: relative;
+
+    .page-content {
+        position: relative;
+        min-height: 400px;
+        min-height: calc(100vh - 92px);
+        overflow: auto;
+    }
+}
+
+.yt-admin-breadcrumb {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    right: 12px;
+    top: 0;
+}
+
+@media (max-width: 767px) {
+    .yt-admin-framework-page {
+        .page-content {
+        }
+    }
+}
+.ant-menu-vertical .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title{
+    font-size: 14px;
+}
+.ant-spin-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ant-table{
+    width: 100%;
+    font-size: 14px!important;
+}
+.ant-table-pagination.ant-pagination{
+    text-align: right;
+    width: 100%;
+}
+.table-list .ant-form-item-control-wrapper{
+    width: 80%;
+}
+.ant-form-inline .ant-form-item{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ant-form-inline .ant-form-item-children .ant-form-item{
+    margin-bottom: 0;
+}
+.ant-card{
+    margin: 20px;
+}
+.ant-spin-container{
+    .ant-card{
+        background-color: #F1F2F6;
+    }
+}
+.ant-form {
+    .ant-select,label,.ant-input,.ant-btn{
+        font-size: 14px;
+    }
+}
+// .ant-spin-container {
+//     .ant-pagination-item-active a{
+//         color: #43be9f;
+//     }
+//     .ant-pagination-item-active a:hover{
+//         color: #3bf1c4;
+//     }
+//     .ant-pagination-item-active:hover{
+//         border: 1px solid #3bf1c4;
+//     }
+//     .ant-pagination-item-active{
+//         border: 1px solid #43be9f;
+//      }
+// }
+.col-style{
+    margin: 10px 0;
+}
+.text-center{
+    text-align: center;
+}
+.col-interval{
+    margin: 20px 0;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    button{
+        margin: 0 10px;
+        float: right;
+    }
+}
+.show{
+    .ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete{
+        display: none;
+    }
+    .ant-spin-nested-loading{
+        padding-bottom: 0;
+    }
+}
+.h2-style{
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.full-width{
+    width: 100%;
+    .ant-form-item-control-wrapper{
+        display: inline-block;
+        width: 65%;
+    }
+    .ant-form-item-label, .ant-form-item-control-wrapper{
+        float: left;
+    }
+}
+.ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content > .ant-tabs-tabpane{
+    background-color: #fff;
+    // padding: 15px;
+}
+.download_but{
+    float: right;
+}

@@ -1,0 +1,80 @@
+.loan-application-detail {
+    padding: 24px;
+    width: 100%;
+    .ant-form-item-control-wrapper{
+        display: inline-block;
+        width: 80%;
+    }
+    .special-input .ant-form-item-control-wrapper{
+        width: 73%;
+    }
+    .ant-form-item-label{
+        float: left;
+    }
+    .my-btn{
+        font-size: 14px;
+    }    
+}
+.loan-application-detail-essential{
+    // padding: 15px;
+    .ant-form-item-control-wrapper{
+        display: inline-block;
+        width: 85%;
+    }
+}
+
+.input-after{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+.half-input{
+    width: 70%;
+}
+.ant-advanced-search-form {
+    .small-input{
+        width: 20%;
+        margin-left: 10%;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .middle-input{
+        width: 22%;
+    }
+    .middle-small-input{
+        width: 38%;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .middle-little{
+        width: 37%;
+        margin: 0 1.5%;
+       
+    }
+    .unit-input{
+        width: 20%;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .ant-form-item{
+        margin-bottom: 0;
+    }
+}
+.ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content,.ant-spin-nested-loading,.ant-spin-container{
+    // padding-bottom: 30px;    
+}
+
+.submit-sbn{
+    margin-left: 24px;
+    margin-bottom: 15px;
+}
+.ant-tabs{
+    background-color: #fff;
+    margin: 10px;
+}
+.loan-application-detail .ant-form-item-label{
+    float: initial;
+}
+.loan-application-detail .green-box .ant-form-item-label{
+    float: left;
+}

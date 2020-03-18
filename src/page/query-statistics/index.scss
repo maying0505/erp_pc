@@ -1,0 +1,38 @@
+.chart_1{
+    position: relative;
+    .chart_tip{
+        position: absolute;
+        z-index: 1;
+        top: 7%;
+        left: 450px;
+        .chart_tip_text{
+            span{
+                margin-right: 20px;
+            }
+        }
+    }
+    .chart_tip2 {
+        left: inherit;
+        right: 20px;
+    }
+}
+.chart_2 {
+    position: relative;
+    .chart_tip{
+        position: absolute;
+        z-index: 1;
+        top: 7%;
+        left: 370px;
+        span{
+            margin-right: 20px;
+        }
+    }
+}
+.switch_box{
+    button.ant-btn{
+        padding: 0 15px;
+    }
+    margin-right: 25px;
+}
+
+

@@ -1,0 +1,227 @@
+@import '../theme/config.scss';
+
+body {
+    // background-color: #002140;
+}
+
+.mini {
+    .yt-admin-framework-sidebar {
+        width: 4.8%;
+        min-width: 80px;
+        transition: all .3s;
+    }
+    .ant-menu-root {
+        transition: all 0.3s;
+        width: 100%;
+    }
+
+    .ant-menu-root > li > div {
+        transition: all .3s;
+        padding: 0px 16px 0 24px !important;
+        &:after {
+            right: 6px;
+            transition: all 0.3s;
+        }
+    }
+    .ant-menu-root > li > div {
+        overflow: hidden;
+    }
+    .ant-menu-root > li > div > span > span {
+        transition: all .3s;
+        opacity: 0;
+        width: 0;
+    }
+
+    .ant-menu-root > li.ant-menu-item {
+        transition: all .3s;
+        padding: 0px 16px 0 24px !important;
+    }
+    .ant-menu-root > li.ant-menu-item > a {
+        overflow: hidden;
+    }
+    .ant-menu-root > li.ant-menu-item > a > span {
+        transition: all .3s;
+        opacity: 0;
+        width: 0;
+    }
+    .ant-menu-root > li > div > span > span {
+        display: none;
+        transition: all .3s;
+    }
+    .ant-menu-root > li > div > i {
+        display: none;
+        transition: all .3s;
+    }
+}
+
+.ant-menu-root {
+    width: 100%;
+    transition: all .3s;
+}
+
+.sidebar-menu-icon-size {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.ant-menu-root > li > div > span > span {
+    transition: all .3s;
+}
+
+.ant-menu-root > li.ant-menu-item > a > span {
+    transition: all .3s;
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-item {
+    border-right: 1px solid transparent;
+}
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item, .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    background-color: #5b70e9;
+}
+
+body .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #5b70e9 !important;
+}
+
+.ant-menu-item-selected > a, .ant-menu-item-selected > a:hover {
+    color: #fff;
+}
+
+.ant-menu-item > a {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.ant-menu-vertical .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title {
+    color: #fff;
+}
+
+.ant-menu-item > a:hover {
+    color: #fff;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical {
+    border-right: 1px solid transparent;
+    background-color: #052241;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+    background-color: #052241;
+}
+
+body .ant-menu-sub.ant-menu-inline > .ant-menu-item {
+    background-color: #052241;
+}
+
+body .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+    padding: 0 16px 0 24px !important;
+
+}
+
+.ant-layout-sider {
+    background-color: #052241;
+}
+
+.ant-menu-root.ant-menu-vertical, .ant-menu-root.ant-menu-inline {
+    margin-top: 20px;
+}
+
+.ant-menu-item-selected > a {
+    overflow: hidden;
+}
+
+.ant-menu-submenu > .ant-menu {
+    background-color: #052241;
+}
+
+.yt-admin-framework-sidebar {
+    transition: all .3s;
+    width: 16%;
+    background-color: #052241;
+    float: left;
+    margin-right: -200px;
+    position: fixed;
+    top: 64px;
+    height: 100%;
+    z-index: 2;
+}
+
+.yt-admin-framework-sidebar .ant-menu-item {
+    transition: all .3s;
+    border-right: none;
+}
+
+.yt-admin-framework-sidebar .ant-menu-item-selected {
+    transition: .3s;
+    border-right: 0;
+    background-color: #eaf8fe;
+}
+
+.ant-menu-submenu-vertical {
+    z-index: 999;
+}
+
+.yt-admin-framework-sidebar {
+    .ant-menu {
+        .fa {
+            margin-right: 11px;
+            width: 12px;
+            height: 12px;
+            text-align: center;
+        }
+    }
+}
+
+.yt-admin-framework-sidebar .ant-menu-submenu-selected.ant-menu-submenu {
+    color: #5b70e9;
+}
+
+@media (max-width: 767px) {
+    .mini {
+        .yt-admin-framework-sidebar {
+            overflow: hidden;
+            width: 0;
+            transition: all .3s;
+        }
+        .ant-menu-root {
+            transition: all 0.3s;
+            width: 0;
+        }
+        .ant-menu-root > li > div,
+        .ant-menu-root > li.ant-menu-item {
+            padding: 0 !important;
+        }
+    }
+}
+
+/**
+ *  Menu sidebar
+ **/
+.my-menu-side-bar-item {
+    color: white;
+    background-color: #5b70e9;
+    width: 100%;
+    text-Align: center;
+    padding: 15px 0;
+    font-size: 16px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.my-menu-tab {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: #5b70e9;
+    border-width: 1px 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+

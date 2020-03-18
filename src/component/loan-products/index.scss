@@ -1,0 +1,10 @@
+  .product-delete-button{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .my-modal .ant-spin-nested-loading > div > .ant-spin{
+    left:0
+  }

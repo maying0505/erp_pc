@@ -1,0 +1,20 @@
+.mini .yt-admin-framework-content {
+    transition: all .3s;
+    margin-left: 4.8%;
+    width: 95.2%;
+}
+
+.yt-admin-framework-content {
+    transition: all .3s;
+    margin-left: 16%;
+    background-color: rgb(240, 242, 245);
+    margin-top: 64px;
+    width: 84%;
+}
+
+@media (max-width: 767px) {
+    .mini .yt-admin-framework-content {
+        transition: all .3s;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,40 @@
+
+.text-center{
+    text-align: center;
+}
+.col-interval{
+    margin: 20px 0;
+    width: 100%;
+    overflow: hidden;
+    button{
+        margin: 0 10px;
+        float: right;
+    }
+}
+.show{
+    .ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete{
+        display: none;
+    }
+    .ant-spin-nested-loading{
+        padding-bottom: 0;
+    }
+}
+.h2-style{
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.full-width{
+    width: 100%;
+    .ant-form-item-control-wrapper{
+        display: inline-block;
+        width: 65%;
+    }
+    .ant-form-item-label, .ant-form-item-control-wrapper{
+        float: left;
+    }
+}

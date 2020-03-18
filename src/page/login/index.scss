@@ -1,0 +1,117 @@
+.login-page {
+    // min-width: 850px;
+    background: url('./login_screen_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .login-box {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 450px;
+        padding: 30px;
+        border-radius: 4px;
+
+        .lq {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+
+            .logo {
+                height: 60px;
+            }
+
+            .dwl {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .qrc {
+                    height: 75px;
+                    width: 75px;
+                }
+
+                .qrcL {
+                    height: 280px;
+                    visibility: hidden;
+                    width: 280px;
+                    color: #fff;
+                    border-radius: 6px;
+                    padding: 5px 0;
+
+                    /* 定位 */
+                    position: absolute;
+                    top: -5px;
+                    left: 105%;
+                    z-index: 1;
+                }
+
+                .qrc:hover ~ .qrcL {
+                    visibility: visible;
+                }
+
+                .qrc:hover {
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .login-form {
+
+        }
+        .welcome {
+            display: block;
+            margin: 0 auto 24px;
+            height: 60px;
+        }
+        h2 {
+            text-align: center;
+            font-size: 24px;
+            margin: 24px;
+        }
+
+        .ant-input {
+            height: 44px;
+
+        }
+        .ant-btn {
+            height: 44px;
+            width: 100%;
+            border-radius: 0;
+        }
+        .green-style, .green-style:focus, .green-style:hover, .green-style:link, .green-style:active, .green-style:visited {
+            background-color: #41BE9E;
+            border-color: #41BE9E;
+            color: #fff;
+            margin-top: 24px;
+            border-radius: 4px;
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    .login-page {
+        .login-box {
+            background-color: transparent;
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}
+
+.my-login {
+    width: 80%;
+    margin: auto;
+}

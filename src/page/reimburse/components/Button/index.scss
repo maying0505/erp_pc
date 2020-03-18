@@ -1,0 +1,14 @@
+.reimburse-my-button {
+    font-size: 16px;
+    padding: 4px 16px;
+    border-radius: 5px;
+    text-align: center;
+
+    &:active {
+        box-shadow: 0 0 4px 2px #999999;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
